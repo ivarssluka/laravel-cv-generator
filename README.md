@@ -87,8 +87,8 @@ Once the application is running, you can:
 - **View, edit, or delete** your CVs from the dashboard.
 - **Download** your CV in PDF format for sharing or printing.
 
+![login](https://github.com/user-attachments/assets/edb8afcd-f2c5-4187-a2cc-4532c5f54a90)
 
 
-![login](https://github.com/user-attachments/assets/ea6df1c6-bc7c-4b0e-b1f2-f80687217bed)
+![createcv](https://github.com/user-attachments/assets/e1d504fa-f596-452b-b3ce-47f7c9c18516)
 
-![createcv](https://github.com/user-attachments/assets/9b588b18-80ba-4919-879e-a411002c3da4)
