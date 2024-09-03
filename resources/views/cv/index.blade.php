@@ -16,8 +16,10 @@
                     <h3 class="text-2xl font-bold mb-2">{{ $cv->personalDetails->name }} {{ $cv->personalDetails->surname }}</h3>
                     <p class="text-gray-600 dark:text-gray-400 mb-4">{{ $cv->personalDetails->email }}</p>
                     <div class="flex justify-between items-center">
-                        <a href="{{ route('cvs.show', $cv->id) }}" class="text-green-600 hover:text-green-800 font-semibold">View</a>
-                        <a href="{{ route('cvs.edit', $cv->id) }}" class="text-blue-600 hover:text-blue-800 font-semibold">Edit</a>
+                        <a href="{{ route('cvs.show', $cv->id) }}"
+                           class="text-green-600 hover:text-green-800 font-semibold">View</a>
+                        <a href="{{ route('cvs.edit', $cv->id) }}"
+                           class="text-blue-600 hover:text-blue-800 font-semibold">Edit</a>
                         <form action="{{ route('cvs.destroy', $cv->id) }}" method="POST">
                             @csrf
                             @method('DELETE')
@@ -29,7 +31,9 @@
         </div>
 
         <div class="mt-8">
-            <a href="{{ route('cvs.create') }}" class="bg-green-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-green-700 transition">Create New CV</a>
+            <a href="{{ route('cvs.create') }}"
+               class="bg-green-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-green-700 transition">Create New
+                CV</a>
         </div>
     </div>
 @endsection

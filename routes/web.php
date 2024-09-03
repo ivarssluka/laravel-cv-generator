@@ -25,4 +25,4 @@ Route::middleware('auth')->group(function () {
     Route::get('/cvs/{id}/pdf', [CVController::class, 'generatePDF'])->name('cvs.pdf');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

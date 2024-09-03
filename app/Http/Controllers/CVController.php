@@ -21,6 +21,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class CVController extends Controller
 {
     use AuthorizesRequests;
+
     protected PDFGeneratorService $pdfService;
 
     public function __construct(PDFGeneratorService $pdfService)

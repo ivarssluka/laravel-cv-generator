@@ -8,7 +8,7 @@
         @import url('https://fonts.googleapis.com/css2?family=DejaVu+Sans&display=swap');
 
         body {
-            font-family: 'DejaVu Sans', sans-serif; /* Good for special characters */
+            font-family: 'DejaVu Sans', sans-serif;
             color: #2D3748;
             line-height: 1.6;
             margin-top: 10px;
@@ -32,7 +32,7 @@
         }
 
         .header h1 {
-            font-size: 24px; /* 2rem */
+            font-size: 24px;
             font-weight: 700;
             color: #2F855A;
         }
@@ -41,7 +41,7 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            font-size: 16px; /* 1rem */
+            font-size: 16px;
             color: #4A5568;
             margin-bottom: 5px;
         }
@@ -55,7 +55,7 @@
         }
 
         .section h2 {
-            font-size: 18px; /* 1.5rem */
+            font-size: 18px;
             font-weight: 600;
             border-bottom: 2px solid #E2E8F0;
             padding-bottom: 5px;
