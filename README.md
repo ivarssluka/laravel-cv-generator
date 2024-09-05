@@ -29,7 +29,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**
 
-    ```bash
+    ```
     git clone https://github.com/yourusername/yourproject.git
     cd yourproject
     ```
@@ -38,25 +38,47 @@ Follow these steps to set up the project locally:
 
     Use Composer to install all necessary dependencies:
 
-    ```bash
+    ```
     composer install
     ```
 
-3. **Environment Setup**
+3. **Install JavaScript Dependencies**
+
+    Use npm (Node.js package manager) to install JavaScript dependencies:
+
+    ```
+    npm install
+    ```
+
+4. **Build Frontend Assets**
+
+    Run the following to compile your CSS and JavaScript files:
+
+    ```
+    npm run dev
+    ```
+
+    For production builds, use:
+
+    ```
+    npm run build
+    ```
+    
+5. **Environment Setup**
 
     Create a copy of the `.env.example` file and configure your environment settings:
 
-    ```bash
+    ```
     cp .env.example .env
     ```
 
     Update the `.env` file with your database credentials and other necessary configuration settings.
 
-4. **Generate Application Key**
+6. **Generate Application Key**
 
     Generate a unique application key:
 
-    ```bash
+    ```
     php artisan key:generate
     ```
 
@@ -64,7 +86,7 @@ Follow these steps to set up the project locally:
 
     Set up the database tables by running migrations:
 
-    ```bash
+    ```
     php artisan migrate --seed
     ```
 
@@ -72,7 +94,7 @@ Follow these steps to set up the project locally:
 
     Start the Laravel development server:
 
-    ```bash
+    ```
     php artisan serve
     ```
 
