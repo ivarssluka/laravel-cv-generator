@@ -57,12 +57,6 @@ Follow these steps to set up the project locally:
     ```
     npm run dev
     ```
-
-    For production builds, use:
-
-    ```
-    npm run build
-    ```
     
 5. **Environment Setup**
 
